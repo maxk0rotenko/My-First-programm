@@ -5,7 +5,7 @@ let numberofFilms;
 
 function start() {
     const numberofFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-    
+
     while (numberofFilms == '' || numberofFilms == null || isNaN(numberofFilms)) {
         const numberofFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
     }    
@@ -61,9 +61,9 @@ function showMyDb(hidden) {
 
 showMyDb();
 
-function writeYourGenres(answer) {
+function writeYourGenres (answer) {
     for (let i = 1; i <= 3; i++) {
-        personalMovieDb.genres[i - 1] = +prompt(`Ваш любимый жанр под номером ${i}`);
+        personalMovieDb.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
     }
 }
 
