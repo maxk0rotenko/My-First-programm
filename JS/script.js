@@ -45,5 +45,6 @@ if (personalMovieDb.count < 10) {
     console.log('Error');
 }
 
+// #3 modify console programm with Functions and Methods
 
-console.log(personalMovieDb);   
+console.log(personalMovieDb); 
