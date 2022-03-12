@@ -4,7 +4,7 @@
 let numberofFilms;
 
 function start() {
-    const numberofFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+    numberofFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
     while (numberofFilms == '' || numberofFilms == null || isNaN(numberofFilms)) {
         const numberofFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
